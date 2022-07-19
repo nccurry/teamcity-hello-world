@@ -1,5 +1,5 @@
 import jetbrains.buildServer.configs.kotlin.*
-import jetbrains.buildServere.configs.kotlin.buildSteps.script
+import jetbrains.buildServer.configs.kotlin.buildSteps.script
 
 version = "2022.04"
 
