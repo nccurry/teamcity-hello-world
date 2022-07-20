@@ -1,5 +1,5 @@
-import jetbrains.buildServer.configs.kotlin.*
-import jetbrains.buildServer.configs.kotlin.buildSteps.script
+import jetbrains.buildServer.configs.kotlin.v2019_2.*
+import jetbrains.buildServer.configs.kotlin.v2019_2.buildSteps.script
 
 version = "2022.04"
 
@@ -9,7 +9,10 @@ project {
         name = "Hello World"
         steps {
             script {
-                scriptContent = "echo 'Hello World'"
+                scriptContent = "echo 'Hello World 1'"
+            }
+            script {
+                scriptContent = "echo 'Hello World 2'"
             }
         }
     }
